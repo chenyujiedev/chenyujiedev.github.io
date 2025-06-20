@@ -605,7 +605,7 @@ function owoBig() {
             // 设置盒子样式
             div.style.cssText = `display:flex; height:${height}px; width:${width}px; left:${left}px; top:${top}px;`;
             // 在盒子中插入图片
-            div.innerHTML = `<img src="${e.target.src}">`
+            div.innerHTML = `<img src="/js/fomal.jsundefined" >`
           }, 300);
         }
       };

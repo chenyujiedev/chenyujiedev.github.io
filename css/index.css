@@ -7773,7 +7773,7 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(../../img/iam.png)
+  background: url(https://cdn.jsdelivr.net/gh/chenyujiedev/images@main/blog/home/im.webp)
     no-repeat center center;
   background-size: cover;
 }
