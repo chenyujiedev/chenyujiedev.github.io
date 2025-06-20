@@ -3172,10 +3172,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://w.wallhaven.cc/full/5g/wallhaven-5g22q5.png);
-    --darkmode-bg:url(https://w.wallhaven.cc/full/d8/wallhaven-d85ewm.png);
-    --mobileday-bg: url(https://w.wallhaven.cc/full/d8/wallhaven-d85ewm.png);
-    --mobilenight-bg: url(https://w.wallhaven.cc/full/d8/wallhaven-d85ewm.png);
+    --default-bg: url(https://cdn.jsdelivr.net/gh/chenyujiedev/images@main/blog/home/bg1.webp);
+    --darkmode-bg:url(https://cdn.jsdelivr.net/gh/chenyujiedev/images@main/blog/home/bg.webp);
+    --mobileday-bg: url(https://cdn.jsdelivr.net/gh/chenyujiedev/images@main/blog/home/bg1.webp);
+    --mobilenight-bg: url(https://cdn.jsdelivr.net/gh/chenyujiedev/images@main/blog/home/bg.webp);
   }`;
 }
 // 切换背景主函数
