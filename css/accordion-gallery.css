@@ -1,0 +1,101 @@
+.acc-gallery-container {
+  display: flex;
+  height: 500px;
+  gap: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.acc-panel {
+  flex: 1;
+  border-radius: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 0.6s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.acc-panel .acc-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+}
+
+.acc-title {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.acc-description {
+  color: rgba(255,255,255,0.9);
+  font-size: 1rem;
+}
+
+.acc-panel.acc-active {
+  flex: 4;
+}
+
+.acc-panel.acc-active .acc-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 背景图设置 */
+#identity {
+  background-image: url('https://cdn.jsdelivr.net/gh/chenyujiedev/images@main/blog/personal/personal1.webp');
+}
+
+#teaching {
+  background-image: url('https://cdn.jsdelivr.net/gh/chenyujiedev/images@main/blog/personal/personal2.webp');
+}
+
+#skills {
+  background-image: url('https://cdn.jsdelivr.net/gh/chenyujiedev/images@main/blog/personal/personal3.webp');
+}
+
+#projects {
+  background-image: url('https://cdn.jsdelivr.net/gh/chenyujiedev/images@main/blog/personal/personal4.webp');
+}
+
+/* 响应式 */
+@media (max-width: 900px) {
+  .acc-gallery-container {
+    height: 400px;
+  }
+
+  .acc-title {
+    font-size: 1.2rem;
+  }
+
+  .acc-description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .acc-gallery-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .acc-panel {
+    height: 120px;
+    margin-bottom: 10px;
+  }
+
+  .acc-panel.acc-active {
+    height: 300px;
+  }
+}
