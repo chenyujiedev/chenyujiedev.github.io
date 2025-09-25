@@ -11,6 +11,24 @@
   </url>
   
   <url>
+    <loc>https://chenyujiedev.github.io/social/fcircle/index.html</loc>
+    
+    <lastmod>2025-09-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chenyujiedev.github.io/social/link/index.html</loc>
+    
+    <lastmod>2025-09-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chenyujiedev.github.io/life/games/index.html</loc>
     
     <lastmod>2025-09-25</lastmod>
@@ -65,24 +83,6 @@
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/social/fcircle/index.html</loc>
-    
-    <lastmod>2025-09-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chenyujiedev.github.io/social/link/index.html</loc>
-    
-    <lastmod>2025-09-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://chenyujiedev.github.io/categories/index.html</loc>
     
     <lastmod>2025-09-25</lastmod>
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/box/animation/index.html</loc>
+    <loc>https://chenyujiedev.github.io/box/gallery/index.html</loc>
     
     <lastmod>2025-09-25</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/box/gallery/index.html</loc>
+    <loc>https://chenyujiedev.github.io/box/animation/index.html</loc>
     
     <lastmod>2025-09-25</lastmod>
     
