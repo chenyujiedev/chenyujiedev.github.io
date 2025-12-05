@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/life/music/index.html</loc>
+    <loc>https://chenyujiedev.github.io/life/movies/index.html</loc>
     
     <lastmod>2025-12-05</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/life/movies/index.html</loc>
+    <loc>https://chenyujiedev.github.io/life/music/index.html</loc>
     
     <lastmod>2025-12-05</lastmod>
     
@@ -92,6 +92,15 @@
   </url>
   
   <url>
+    <loc>https://chenyujiedev.github.io/box/animation/index.html</loc>
+    
+    <lastmod>2025-12-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chenyujiedev.github.io/box/gallery/index.html</loc>
     
     <lastmod>2025-12-05</lastmod>
@@ -110,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/box/animation/index.html</loc>
+    <loc>https://chenyujiedev.github.io/posts/1b9ff24b.html</loc>
     
     <lastmod>2025-12-05</lastmod>
     
@@ -129,15 +138,6 @@
   
   <url>
     <loc>https://chenyujiedev.github.io/posts/327f0e98.html</loc>
-    
-    <lastmod>2025-12-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chenyujiedev.github.io/posts/1b9ff24b.html</loc>
     
     <lastmod>2025-12-05</lastmod>
     
@@ -273,14 +273,14 @@
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93/</loc>
+    <loc>https://chenyujiedev.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2025-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://chenyujiedev.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2025-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
