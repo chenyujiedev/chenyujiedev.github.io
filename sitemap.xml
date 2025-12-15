@@ -11,6 +11,42 @@
   </url>
   
   <url>
+    <loc>https://chenyujiedev.github.io/life/music/index.html</loc>
+    
+    <lastmod>2025-12-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chenyujiedev.github.io/life/movies/index.html</loc>
+    
+    <lastmod>2025-12-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chenyujiedev.github.io/personal/about/index.html</loc>
+    
+    <lastmod>2025-12-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chenyujiedev.github.io/site/census/index.html</loc>
+    
+    <lastmod>2025-12-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chenyujiedev.github.io/site/time/index.html</loc>
     
     <lastmod>2025-12-15</lastmod>
@@ -47,42 +83,6 @@
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/life/movies/index.html</loc>
-    
-    <lastmod>2025-12-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chenyujiedev.github.io/life/music/index.html</loc>
-    
-    <lastmod>2025-12-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chenyujiedev.github.io/personal/about/index.html</loc>
-    
-    <lastmod>2025-12-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chenyujiedev.github.io/site/census/index.html</loc>
-    
-    <lastmod>2025-12-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://chenyujiedev.github.io/categories/index.html</loc>
     
     <lastmod>2025-12-15</lastmod>
@@ -101,15 +101,6 @@
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/box/gallery/index.html</loc>
-    
-    <lastmod>2025-12-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://chenyujiedev.github.io/box/nav/index.html</loc>
     
     <lastmod>2025-12-15</lastmod>
@@ -119,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/posts/ml-week3-summary.html</loc>
+    <loc>https://chenyujiedev.github.io/box/gallery/index.html</loc>
     
     <lastmod>2025-12-15</lastmod>
     
@@ -129,6 +120,15 @@
   
   <url>
     <loc>https://chenyujiedev.github.io/posts/327f0e98.html</loc>
+    
+    <lastmod>2025-12-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chenyujiedev.github.io/posts/ml-week3-summary.html</loc>
     
     <lastmod>2025-12-15</lastmod>
     
@@ -172,6 +172,20 @@
   
   <url>
     <loc>https://chenyujiedev.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chenyujiedev.github.io/tags/Hexo/</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chenyujiedev.github.io/tags/GitHub-Actions/</loc>
     <lastmod>2025-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -226,20 +240,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://chenyujiedev.github.io/tags/Hexo/</loc>
-    <lastmod>2025-12-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://chenyujiedev.github.io/tags/GitHub-Actions/</loc>
-    <lastmod>2025-12-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -250,14 +250,14 @@
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://chenyujiedev.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2025-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://chenyujiedev.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2025-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
