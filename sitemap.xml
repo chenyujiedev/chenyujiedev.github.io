@@ -11,25 +11,7 @@
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/social/fcircle/index.html</loc>
-    
-    <lastmod>2025-12-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://chenyujiedev.github.io/social/link/index.html</loc>
-    
-    <lastmod>2025-12-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chenyujiedev.github.io/life/games/index.html</loc>
     
     <lastmod>2025-12-17</lastmod>
     
@@ -47,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/life/music/index.html</loc>
+    <loc>https://chenyujiedev.github.io/life/games/index.html</loc>
     
     <lastmod>2025-12-17</lastmod>
     
@@ -56,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://chenyujiedev.github.io/site/census/index.html</loc>
+    <loc>https://chenyujiedev.github.io/life/music/index.html</loc>
     
     <lastmod>2025-12-17</lastmod>
     
@@ -74,7 +56,25 @@
   </url>
   
   <url>
+    <loc>https://chenyujiedev.github.io/site/census/index.html</loc>
+    
+    <lastmod>2025-12-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chenyujiedev.github.io/site/time/index.html</loc>
+    
+    <lastmod>2025-12-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chenyujiedev.github.io/social/fcircle/index.html</loc>
     
     <lastmod>2025-12-17</lastmod>
     
