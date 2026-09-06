@@ -7,7 +7,7 @@ subtitle: 'Incoming PhD Student in Computer Science, <a href="https://www.ysu.ac
 profile:
   align: right
   image: prof_pic.png
-  image_circular: true
+  image_circular: false # al-folio 的 rounded-circle 在当前 Tailwind 构建下不生效，且参考站点用的也是矩形
   more_info: >
     <p><strong>Yujie Chen</strong></p>
     <p>Dept. of Computer Science</p>
