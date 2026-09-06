@@ -6,7 +6,7 @@ subtitle: 'Incoming PhD Student in Computer Science, <a href="https://www.ysu.ac
 
 profile:
   align: right
-  # image: prof_pic.jpg # 照片放到 assets/img/prof_pic.jpg 后取消注释
+  image: prof_pic.png
   image_circular: true
   more_info: >
     <p><strong>Yujie Chen</strong></p>
@@ -15,7 +15,7 @@ profile:
     <p><a href="mailto:echenuiyj@gmail.com">echenuiyj@gmail.com</a></p>
 
 selected_papers: true
-social: true
+social: false # 图标已移至导航栏，见 _config.yml 的 enable_navbar_social
 
 announcements:
   enabled: true
@@ -40,13 +40,13 @@ exposure-aware losses of my own design.
 **Research interests** — low-light image enhancement · object detection under adverse illumination ·
 zero-reference supervision · no-reference image quality assessment · robustness under distribution shift
 
-#### Education
+## Education
 
 - **PhD**, Computer Science — Youngsan University · 2026–
 - **MSc**, Computer Science — Youngsan University · GPA 4.4 / 4.5
 - **BEng**, Computer Science & Technology — Fujian Normal University · 2015–2019
 
-#### Previously
+## Previously
 
 Four years as a **Senior Software Instructor**, independently designing and delivering semester-long
 computer science courses at roughly eleven universities and corporate programmes, to more than a
