@@ -1,0 +1,108 @@
+cv:
+  name: Chen Yujie
+  label: PhD Student in Computer Science · Low-Light Vision
+  email: echenuiyj@gmail.com
+  location: South Korea
+  image: ""
+  summary: >
+    PhD student in Computer Science at Youngsan University, working on computer vision under low light —
+    low-light image enhancement and detection-oriented enhancement. Four years of prior experience as a
+    senior software instructor, teaching full-semester CS courses at around eleven universities and
+    enterprise programmes to over 1,000 learners.
+
+  social_networks:
+    - network: GitHub
+      username: chenyujiedev
+    - network: LinkedIn
+      username: yujie-chen-342467190
+
+  sections:
+    Education:
+      - institution: Youngsan University
+        location: South Korea
+        url: https://www.ysu.ac.kr/
+        area: Computer Science
+        studyType: PhD
+        start_date: 2026-09
+        end_date: present
+        highlights:
+          - "Research areas: computer vision, low-light vision, object detection."
+          - "Advisor: Prof. Minpo Jung (정민포)."
+
+      - institution: Youngsan University
+        location: South Korea
+        url: https://www.ysu.ac.kr/
+        area: Computer Science
+        studyType: MSc
+        start_date: 2024
+        end_date: 2026-08
+        score: GPA 4.4 / 4.5
+        highlights:
+          - "Thesis: Research on Deep-Learning-Based Low-Light Image Enhancement."
+          - "Advisor: Prof. Minpo Jung (정민포)."
+          - Awarded a 50% tuition scholarship for academic performance.
+
+      - institution: Concord University College, Fujian Normal University
+        location: Fuzhou, China
+        area: Computer Science and Technology
+        studyType: BEng
+        start_date: 2015
+        end_date: 2019
+
+    Research:
+      - company: DOLENet — Detection-Oriented Low-Light Enhancement
+        position: First author · manuscript in preparation
+        start_date: 2026
+        end_date: present
+        summary: >
+          Studies low-light enhancement whose only consumer is a detector, rather than enhancement
+          optimised for human perception and attached to a detector afterwards.
+        highlights:
+          - Multi-seed YOLOv8 / ExDark experiments, gradient-conflict analysis and routing diagnostics.
+          - TP/FP/FN error decomposition to separate genuine detection gains from cosmetic ones.
+          - "Prof. Minpo Jung serves as advisor and corresponding author."
+
+      - company: MSc Thesis — Deep-Learning Low-Light Image Enhancement
+        position: Author
+        start_date: 2025
+        end_date: 2026
+        summary: >
+          Zero-reference training, local illumination balancing and shadow recovery without adding
+          inference cost.
+        highlights:
+          - Two exposure-aware losses of my own design on the Zero-DCE framework.
+          - Benchmarked against Retinexformer and RUAS.
+          - Evaluated on NIQE, BRISQUE, LOE, PSNR, SSIM and LPIPS.
+
+    Teaching and Professional Experience:
+      - company: Fujian Guoke Information Technology Co., Ltd.
+        position: Senior Software Instructor
+        location: Fuzhou, China
+        start_date: 2019-11
+        end_date: 2023-10
+        summary: >
+          Independently designed and delivered full-semester university courses: curriculum planning,
+          lectures, labs, assignments, exams, grading and student project supervision.
+        highlights:
+          - Taught at around eleven universities and enterprise programmes, including Huaqiao University, reaching over 1,000 learners.
+          - "Subjects: Java, Spring Boot, microservices, distributed systems, big data and software projects."
+          - Independently developed a big-data training programme for State Grid Corporation of China, delivered at their Fuzhou headquarters.
+          - Backend development and system architecture with Java, Spring Boot, databases and Vue; mentored interns and established coding standards.
+
+    Skills:
+      - label: Computer Vision
+        details: PyTorch · OpenCV · YOLO · model training and evaluation · experiment automation
+      - label: Software Engineering
+        details: Java · Spring Boot · Vue · microservices · distributed systems · databases · Git
+      - label: Data
+        details: Big data · Spark · data processing
+
+    Certifications:
+      - label: Huawei Certified Instructor
+        details: HCIA / HCIP
+
+    Languages:
+      - label: Chinese
+        details: Native; able to teach specialised CS courses independently
+      - label: English
+        details: Duolingo English Test 90; academic reading and writing
