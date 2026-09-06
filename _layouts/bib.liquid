@@ -7,34 +7,6 @@
   其余部分与上游保持一致，升级 gem 后需重新比对。
 {%- endcomment -%}
 <div class="row">
-  {% if entry.preview %}
-    <div class="col-12 pub-teaser mb-2">
-      {% assign teaser_video_extensions = 'mp4,webm,ogg,mov' | split: ',' %}
-      {% assign teaser_extension = entry.preview | split: '.' | last | split: '?' | first | downcase %}
-      {% if teaser_video_extensions contains teaser_extension %}
-        {% if entry.preview contains '://' %}
-          {% assign teaser_video_path = entry.preview %}
-        {% else %}
-          {% assign teaser_video_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
-        {% endif %}
-        {% include video.liquid path=teaser_video_path class="preview-wide img-fluid w-100 z-depth-1 rounded" controls=true %}
-      {% elsif entry.preview contains '://' %}
-        <img class="preview-wide img-fluid w-100 z-depth-1 rounded" src="{{ entry.preview }}">
-      {% else %}
-        {% assign teaser_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=teaser_path
-          sizes="(max-width: 768px) 100vw, 720px"
-          class="preview-wide img-fluid w-100 z-depth-1 rounded"
-          zoomable=true
-          alt=entry.title
-        %}
-      {% endif %}
-    </div>
-  {% endif %}
-
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
@@ -409,4 +381,36 @@
       </div>
     {% endif %}
   </div>
+
+  {%- comment -%}
+    Teaser sits after the entry text, not before it. Placed above, it reads as
+    belonging to the preceding entry rather than this one.
+  {%- endcomment -%}
+  {% if entry.preview %}
+    <div class="col-12 pub-teaser mt-2 mb-4">
+      {% assign teaser_video_extensions = 'mp4,webm,ogg,mov' | split: ',' %}
+      {% assign teaser_extension = entry.preview | split: '.' | last | split: '?' | first | downcase %}
+      {% if teaser_video_extensions contains teaser_extension %}
+        {% if entry.preview contains '://' %}
+          {% assign teaser_video_path = entry.preview %}
+        {% else %}
+          {% assign teaser_video_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+        {% endif %}
+        {% include video.liquid path=teaser_video_path class="preview-wide img-fluid w-100 z-depth-1 rounded" controls=true %}
+      {% elsif entry.preview contains '://' %}
+        <img class="preview-wide img-fluid w-100 z-depth-1 rounded" src="{{ entry.preview }}">
+      {% else %}
+        {% assign teaser_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=teaser_path
+          sizes="(max-width: 768px) 100vw, 720px"
+          class="preview-wide img-fluid w-100 z-depth-1 rounded"
+          zoomable=true
+          alt=entry.title
+        %}
+      {% endif %}
+    </div>
+  {% endif %}
 </div>
