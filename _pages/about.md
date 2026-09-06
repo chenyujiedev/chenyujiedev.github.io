@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student in Computer Science, <a href="https://www.ysu.ac.kr/">Youngsan University</a> · Advisor: Prof. Minpo Jung (정민포)
+subtitle: 'PhD Student in Computer Science, <a href="https://www.ysu.ac.kr/">Youngsan University</a> · Advisor: Prof. Minpo Jung (정민포)'
 
 profile:
   align: right
-  image:
+  # image: prof_pic.jpg # 放一张照片到 assets/img/ 后取消注释
   image_circular: false
   more_info: >
     <p>Dept. of Computer Science</p>
