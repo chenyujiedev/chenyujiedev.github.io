@@ -1,14 +1,15 @@
 cv:
-  name: Chen Yujie
-  label: PhD Student in Computer Science · Low-Light Vision
+  name: Yujie Chen
+  label: Incoming PhD Student in Computer Science · Low-Light Vision
   email: echenuiyj@gmail.com
-  location: South Korea
+  location: South Korea / China
   image: ""
   summary: >
-    PhD student in Computer Science at Youngsan University, working on computer vision under low light —
-    low-light image enhancement and detection-oriented enhancement. Four years of prior experience as a
-    senior software instructor, teaching full-semester CS courses at around eleven universities and
-    enterprise programmes to over 1,000 learners.
+    Incoming PhD student in Computer Science at Youngsan University (from September 2026), with four
+    years of university-level and professional teaching experience. Former Senior Software Instructor
+    who independently designed and delivered complete semester-long courses — lectures, laboratories,
+    assignments, examinations, grading and project supervision — in Chinese across approximately 11
+    universities and corporate programmes. Research focuses on computer vision under low light.
 
   social_networks:
     - network: GitHub
@@ -22,25 +23,24 @@ cv:
         location: South Korea
         url: https://www.ysu.ac.kr/
         area: Computer Science
-        studyType: PhD
+        studyType: PhD (incoming)
         start_date: 2026-09
         end_date: present
         highlights:
-          - "Research areas: computer vision, low-light vision, object detection."
-          - "Advisor: Prof. Minpo Jung (정민포)."
+          - "Research areas — computer vision, low-light vision, object detection."
+          - "Advisor — Prof. Minpo Jung."
 
       - institution: Youngsan University
         location: South Korea
         url: https://www.ysu.ac.kr/
         area: Computer Science
         studyType: MSc
-        start_date: 2024
         end_date: 2026-08
         score: GPA 4.4 / 4.5
         highlights:
-          - "Thesis: Research on Deep-Learning-Based Low-Light Image Enhancement."
-          - "Advisor: Prof. Minpo Jung (정민포)."
-          - Awarded a 50% tuition scholarship for academic performance.
+          - "Thesis — A Study on Deep Learning-Based Low-Light Image Enhancement."
+          - "Advisor — Prof. Minpo Jung."
+          - Received a 50% merit-based tuition reduction.
 
       - institution: Concord University College, Fujian Normal University
         location: Fuzhou, China
@@ -49,26 +49,27 @@ cv:
         start_date: 2015
         end_date: 2019
 
-    Research:
-      - company: DOLENet — Detection-Oriented Low-Light Enhancement
-        position: First author · manuscript in preparation
+    Research Experience:
+      - company: "DOLENet — Detection-Oriented Low-Light Enhancement"
+        position: First author · journal manuscript in preparation
         start_date: 2026
         end_date: present
         summary: >
-          Studies low-light enhancement whose only consumer is a detector, rather than enhancement
-          optimised for human perception and attached to a detector afterwards.
+          Low-light enhancement is normally optimised for human perception and then attached to a
+          detector that had no say in the objective. This work studies enhancement whose only consumer
+          is the detector.
         highlights:
-          - Multi-seed YOLOv8 / ExDark experiments, gradient-conflict analysis and routing diagnostics.
-          - TP/FP/FN error decomposition to separate genuine detection gains from cosmetic ones.
+          - Multi-seed YOLOv8 / ExDark experiments, gradient-conflict analysis and routing audits.
+          - TP/FP/FN error analysis separating genuine detection gains from cosmetic ones.
           - "Prof. Minpo Jung serves as advisor and corresponding author."
 
-      - company: MSc Thesis — Deep-Learning Low-Light Image Enhancement
+      - company: "Master's Thesis — A Study on Deep Learning-Based Low-Light Image Enhancement"
         position: Author
         start_date: 2025
         end_date: 2026
         summary: >
-          Zero-reference training, local illumination balancing and shadow recovery without adding
-          inference cost.
+          Zero-reference learning, local illumination balancing, shadow recovery and efficient image
+          restoration without increasing inference cost.
         highlights:
           - Two exposure-aware losses of my own design on the Zero-DCE framework.
           - Benchmarked against Retinexformer and RUAS.
@@ -81,28 +82,42 @@ cv:
         start_date: 2019-11
         end_date: 2023-10
         summary: >
-          Independently designed and delivered full-semester university courses: curriculum planning,
-          lectures, labs, assignments, exams, grading and student project supervision.
+          Independently designed and delivered semester-long university courses, covering curriculum
+          planning, lectures, laboratories, assignments, examinations, grading and student project
+          supervision.
         highlights:
-          - Taught at around eleven universities and enterprise programmes, including Huaqiao University, reaching over 1,000 learners.
-          - "Subjects: Java, Spring Boot, microservices, distributed systems, big data and software projects."
-          - Independently developed a big-data training programme for State Grid Corporation of China, delivered at their Fuzhou headquarters.
-          - Backend development and system architecture with Java, Spring Boot, databases and Vue; mentored interns and established coding standards.
+          - Taught Java, Spring Boot, microservices, distributed systems, big-data technologies and software projects to over 1,000 learners across approximately 11 universities, including Huaqiao University, and corporate programmes.
+          - Independently developed a big-data training curriculum for State Grid Corporation of China and delivered it at their Fuzhou headquarters to employees from across Fujian Province.
+          - Contributed to backend development, system architecture, intern mentoring, coding standards, project delivery and technical team coordination using Java, Spring Boot, databases and Vue.
 
-    Skills:
+    Courses Prepared to Teach:
+      - label: Programming & Software Engineering
+        details: Java · OOP · Spring Boot · web backends · databases · microservices · software projects · Git
+      - label: AI & Intelligent Systems
+        details: AI · machine learning · natural language processing · PyTorch · research projects · computer vision · image processing
+      - label: Computer Systems
+        details: algorithms · operating systems · computer architecture · distributed systems · systems fundamentals
+      - label: Data & Emerging Technologies
+        details: big data · Spark · data-processing workflows · blockchain · project-based practical training
+
+    Technical Strengths:
       - label: Computer Vision
-        details: PyTorch · OpenCV · YOLO · model training and evaluation · experiment automation
+        details: Python · PyTorch · OpenCV · YOLO · model training and evaluation · experiment automation
       - label: Software Engineering
         details: Java · Spring Boot · Vue · microservices · distributed systems · databases · Git
       - label: Data
-        details: Big data · Spark · data processing
+        details: big data · Spark · data-processing workflows
 
-    Certifications:
-      - label: Huawei Certified Instructor
-        details: HCIA / HCIP
-
-    Languages:
-      - label: Chinese
-        details: Native; able to teach specialised CS courses independently
+    Languages and Certifications:
+      - label: Mandarin Chinese
+        details: Native; able to deliver full course instruction
       - label: English
-        details: Duolingo English Test 90; academic reading and writing
+        details: Duolingo English Test 90 (B1); academic reading and writing
+      - label: Certification
+        details: Former Huawei Certified ICT Instructor (HCIA / HCIP)
+
+    Academic Highlights:
+      - label: Graduate performance
+        details: MSc GPA 4.4 / 4.5, with a 50% merit-based tuition reduction at Youngsan University
+      - label: Publication
+        details: Journal manuscript in preparation as first author
