@@ -28,48 +28,28 @@ latest_posts:
   limit: 3
 ---
 
-I am an incoming PhD student in Computer Science at **Youngsan University**, advised by Prof. Minpo Jung.
 I work on **computer vision under low light** — the regime where photons are scarce, sensor noise
-dominates, and the assumptions that ordinary detectors were trained on quietly stop holding.
+dominates, and the assumptions ordinary detectors were trained on quietly stop holding.
 
-#### What I work on
+Low-light enhancement is normally optimised to look good to a **human**, then bolted onto a detector
+that had no say in what "good" meant. My current work asks the question that split skips: **what should
+enhancement do when its only consumer is a detector?** That is *DOLENet*, my first-author manuscript in
+preparation. My MSc thesis approached the same territory from the enhancement side, with two
+exposure-aware losses of my own design.
 
-Most low-light pipelines are built in two disconnected halves. An enhancement model is trained to
-produce an image a **human** would call good, and a detector is then bolted onto its output, having had
-no say in what "good" meant. The detector inherits whatever the enhancer decided to amplify, including
-artifacts that look fine to the eye and are actively misleading to a network.
+**Research interests** — low-light image enhancement · object detection under adverse illumination ·
+zero-reference supervision · no-reference image quality assessment · robustness under distribution shift
 
-My current work asks the question that split skips: **what should enhancement do when its only consumer
-is a detector?** That is the subject of *DOLENet*, my first-author manuscript in preparation, evaluated
-with multi-seed YOLOv8 experiments on ExDark, gradient-conflict analysis, and TP/FP/FN error
-decomposition — the last one specifically to separate real detection gains from cosmetic ones.
+#### Education
 
-My MSc thesis approached the same territory from the enhancement side: zero-reference learning, local
-illumination balancing and shadow recovery, without paying for it at inference time. It introduced two
-exposure-aware losses of my own design, benchmarked against Retinexformer and RUAS.
+- **PhD**, Computer Science — Youngsan University · 2026–
+- **MSc**, Computer Science — Youngsan University · GPA 4.4 / 4.5
+- **BEng**, Computer Science & Technology — Fujian Normal University · 2015–2019
 
-#### Research interests
+#### Previously
 
-- Low-light image enhancement and restoration
-- Object detection under adverse imaging conditions
-- Zero-reference and unsupervised supervision
-- No-reference image quality assessment
-- Robustness under distribution shift
+Four years as a **Senior Software Instructor**, independently designing and delivering semester-long
+computer science courses at roughly eleven universities and corporate programmes, to more than a
+thousand learners. [More →](/teaching/)
 
-#### Teaching
-
-Before graduate study I spent four years as a **Senior Software Instructor**, independently designing and
-delivering semester-long computer science courses — curriculum, lectures, labs, assignments, exams,
-grading and project supervision — at roughly eleven universities and corporate programmes, to more than
-a thousand learners. I also built a big-data training curriculum for **State Grid Corporation of China**.
-
-I treat teaching as part of the work rather than a detour from it. The [teaching](/teaching/) page has
-the full course list; my [CV](/cv/) has everything else.
-
-#### Background
-
-MSc in Computer Science from Youngsan University (GPA 4.4 / 4.5, with a 50% merit-based tuition
-reduction), and a BEng in Computer Science and Technology from Concord University College, Fujian
-Normal University. I teach in Mandarin Chinese and do research in English.
-
-Email is the most reliable way to reach me.
+Email is the most reliable way to reach me. Full details are in my [CV](/cv/).
