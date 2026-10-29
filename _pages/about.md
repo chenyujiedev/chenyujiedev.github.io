@@ -14,7 +14,7 @@ profile:
     <p>Youngsan University, South Korea</p>
     <p><a href="mailto:echenuiyj@gmail.com">echenuiyj@gmail.com</a></p>
 
-selected_papers: true
+selected_papers: false # 论文集中在 /publications/ 页，首页不再重复列出
 social: false # 图标已移至导航栏，见 _config.yml 的 enable_navbar_social
 
 announcements:
