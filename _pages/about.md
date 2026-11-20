@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 'Incoming PhD Student in Computer Science, <a href="https://www.ysu.ac.kr/">Youngsan University</a> · Advisor: Prof. Minpo Jung'
+subtitle: 'PhD Student in Computer Science, <a href="https://www.ysu.ac.kr/">Youngsan University</a> · Advisor: Prof. MinPo Jung'
 
 profile:
   align: right
@@ -28,23 +28,24 @@ latest_posts:
   limit: 3
 ---
 
-I work on **computer vision under low light** — the regime where photons are scarce, sensor noise
-dominates, and the assumptions ordinary detectors were trained on quietly stop holding.
+I work on **visual perception and image restoration under adverse imaging conditions**: low light,
+sensor noise and glare, where images lose the information that ordinary models rely on.
 
-Low-light enhancement is normally optimised to look good to a **human**, then bolted onto a detector
-that had no say in what "good" meant. My current work asks the question that split skips: **what should
-enhancement do when its only consumer is a detector?** That is *DOLENet*, my first-author manuscript in
-preparation. My MSc thesis approached the same territory from the enhancement side, with two
-exposure-aware losses of my own design.
+My current work follows four lines:
 
-**Research interests** — low-light image enhancement · object detection under adverse illumination ·
-zero-reference supervision · no-reference image quality assessment · robustness under distribution shift
+- **Object detection in low light**: detectors that hold up in the dark without extra inference cost.
+- **Low-light image enhancement and denoising**: removing the noise that brightening amplifies.
+- **Document image restoration**: removing specular glare from photographed documents.
+- **Efficient deployment**: keeping detectors accurate after quantization for edge devices.
+
+Two journal manuscripts are under review and two more are in preparation. My MSc thesis worked on
+zero-reference low-light enhancement, with two exposure-aware losses of my own design.
 
 ## Education
 
-- **PhD**, Computer Science — Youngsan University · 2026–
-- **MSc**, Computer Science — Youngsan University · GPA 4.4 / 4.5
-- **BEng**, Computer Science & Technology — Fujian Normal University · 2015–2019
+- **PhD**, Computer Science, Youngsan University · 2026–
+- **MSc**, Computer Science, Youngsan University · GPA 4.4 / 4.5
+- **BEng**, Computer Science & Technology, Concord University College, Fujian Normal University · 2015–2019
 
 ## Previously
 

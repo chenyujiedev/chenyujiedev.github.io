@@ -10,12 +10,12 @@ contact_note: >
   Email is the most reliable way to reach me.
 description: > # 站点简介，用于 SEO 与社交分享预览
   Personal site of Yujie Chen — PhD student in Computer Science at Youngsan University,
-  working on low-light computer vision and detection-oriented image enhancement.
+  working on visual perception and image restoration under adverse imaging conditions.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: low-light vision, object detection, computer vision, deep learning, image enhancement
+keywords: computer vision, low-light vision, object detection, image restoration, image enhancement, deep learning
 lang: en # 站点语言
 icon: 🌙 # favicon
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
